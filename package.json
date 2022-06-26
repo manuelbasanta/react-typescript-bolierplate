@@ -7,7 +7,10 @@
     "start": "webpack serve --mode=development",
     "build": "webpack --mode=production",
     "lint": "eslint .",
-    "test": "NODE_ENV=test jest --verbose --coverage"
+    "lint:fix": "eslint . --fix",
+    "test": "NODE_ENV=test jest --verbose --coverage",
+    "test:e2e": "cypress run",
+    "cypress:open": "cypress open"
   },
   "author": "Manuel Basanta",
   "license": "MIT",
@@ -22,8 +25,10 @@
     "@typescript-eslint/parser": "^5.29.0",
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
+    "cypress": "^10.2.0",
     "eslint": "^8.18.0",
     "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.6.0",
     "eslint-plugin-react": "^7.30.1",

@@ -6,3 +6,4 @@
 - styles: SASS
 - lint : eslint extending from airbnb's
 - Unit testing: Jest
+- E2e testing: Cypress
