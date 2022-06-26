@@ -5,3 +5,4 @@
 - Typescript
 - styles: SASS
 - lint : eslint extending from airbnb's
+- Unit testing: Jest
