@@ -1,7 +1,7 @@
-#React Typescript Bolierplate
+# React Typescript Bolierplate
 
-Framework: React File structure
-State management : Redux - @reduxjs/toolkit
-Typescript
-styles: SASS
-lint : eslint extending from arbnbs
+- Framework: React File structure
+- State management : Redux - @reduxjs/toolkit
+- Typescript
+- styles: SASS
+- lint : eslint extending from airbnb's
