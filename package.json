@@ -6,8 +6,8 @@
   "scripts": {
     "start": "webpack serve --mode=development",
     "build": "webpack --mode=production",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint": "eslint --ext .js --ext .jsx --ext .ts --ext .tsx .",
+    "lint:fix": "eslint --ext .js --ext .jsx --ext .ts --ext .tsx . --fix",
     "test": "NODE_ENV=test jest --verbose --coverage",
     "test:e2e": "cypress run",
     "cypress:open": "cypress open"
